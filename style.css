@@ -1,0 +1,59 @@
+.flex-wrapper {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: url('images/iceBg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.jumbotron {
+    background-image: url('images/icelandView.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.pricing-header {
+    color: white;
+}
+
+.pricing-header .lead {
+    color: white;
+}
+
+.lead {
+    color: black;
+    font-weight: 400;
+}
+
+.card {
+    transition: all 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-img-1 {
+    background-image: url('images/20plaiin.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card-img-2 {
+    background-image: url('images/waterFall.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card-img-3 {
+    background-image: url('images/ocean.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.footer {
+    height: 4rem;
+    background-color: #f5f5f5;
+}
